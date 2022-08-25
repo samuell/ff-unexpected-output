@@ -15,7 +15,7 @@ git clone https://github.com/samuell/ff-unexpected-output.git
 cd ff-unexpected-output
 poetry shell
 poetry install
-featureform apply --local
+featureform apply --local defs.py
 ```
 
 ### Run client
