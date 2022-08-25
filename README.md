@@ -35,6 +35,11 @@ person    bar
 2  samuel  0.004
 ```
 
+Why? Because [the docs](https://docs.featureform.com/getting-started/serving-for-inference-and-training#serving-for-inference) say:
+
+> If a feature has a timestamp, only its most recent value is stored in the
+> inference store. It can be thought of as a feature cache for inference time.
+
 ### Actual output
 
 Instead what we get is the full time series:
