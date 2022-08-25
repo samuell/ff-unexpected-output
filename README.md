@@ -3,6 +3,8 @@
 ## Prerequisites
 
 - [poetry](https://python-poetry.org/)
+- OR, some other way of installing the dependencies specified in
+  `pyproject.toml`, under `[tool.poetry.dependencies]`.
 
 ## How to
 
