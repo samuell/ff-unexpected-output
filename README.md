@@ -14,7 +14,7 @@
 git clone https://github.com/samuell/ff-unexpected-output.git
 cd ff-unexpected-output
 poetry shell
-poetry init
+poetry install
 featureform apply --local
 ```
 
