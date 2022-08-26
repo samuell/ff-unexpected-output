@@ -1,9 +1,9 @@
 import featureform as ff
 
-client = ff.ServingLocalClient()
+client = ff.ServingClient(local=True)
 
-foo = client.features([("foo", "default")], ("person", "samuel"))
-bar = client.features([("bar", "default")], ("person", "samuel"))
+foo = client.features([("foo", "default")], {"person": "samuel"})
+bar = client.features([("bar", "default")], {"person": "samuel"})
 
 print("-"*7 + "Foo" + "-"*7)
 print(foo)

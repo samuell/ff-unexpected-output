@@ -6,8 +6,8 @@ authors = ["Samuel Lampa <samuel.lampa@savantic.se>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.10"
-featureform = "^1.1.0"
-pandas = "^1.4.3"
+featureform = "^1.1.10"
+pandas = "^1.3.5"
 pyarrow = "^9.0.0"
 
 [tool.poetry.dev-dependencies]
